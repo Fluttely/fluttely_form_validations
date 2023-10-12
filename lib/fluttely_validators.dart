@@ -2,6 +2,7 @@ library fluttely_validators;
 
 import 'i18n/i18n.dart';
 import 'package:cpf_cnpj_validator/cpf_validator.dart' as cpf_validator;
+export 'i18n/i18n.dart';
 
 part 'validators/full_name_validator.dart';
 part 'validators/cpf_validator.dart';

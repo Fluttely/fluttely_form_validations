@@ -1,6 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:fluttely_form_validations/fluttely_form_validations.dart';
+import 'package:fluttely_validators/fluttely_validators.dart';
 
 void main() {
   test('1', () {

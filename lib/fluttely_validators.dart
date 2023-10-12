@@ -1,4 +1,6 @@
-library fluttely_form_validations;
+library fluttely_validators;
+
+// import 'package:cpf_cnpj_validator/cpf_validator.dart';
 
 class FormValidations {
   static String _getInitials(String fullName) {
@@ -16,8 +18,8 @@ class FormValidations {
     return initials;
   }
 
-  static String? fullName(String? val) {
-    final String? fullName = val;
+  static String? fullName(String? value) {
+    final String? fullName = value;
     if (fullName?.isEmpty == true) return 'this field can not be empty';
     if (fullName == null) return 'this field can not be empty';
 
@@ -35,4 +37,9 @@ class FormValidations {
     }
     return null;
   }
+
+  // static String? cpf(String? value) {
+  //   CPFValidator.isValid(value);
+  //   return '';
+  // }
 }

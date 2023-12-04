@@ -12,12 +12,6 @@ class FormValidators {
   FormValidators(I18nLanguages language) {
     I18n.load(language: language);
   }
-
-  PersonValidators get person => PersonValidators();
-  PhoneValidators get phone => PhoneValidators();
-}
-
-class PersonValidators {
   String? fullName(String? value) {
     return FullNameValidator.validate(value);
   }
@@ -25,9 +19,7 @@ class PersonValidators {
   String? cpf(String? value) {
     return CPFValidator.validate(value);
   }
-}
 
-class PhoneValidators {
   String? phoneBR(String? value) {
     return PhoneValidator.validate(value);
   }

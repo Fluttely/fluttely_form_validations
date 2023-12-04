@@ -7,4 +7,7 @@ abstract class Translation {
 
   /// CPFValidator
   String get thisIsNotAValidCPF;
+
+  /// PhoneValidator
+  String get thisIsNotAValidPhone;
 }

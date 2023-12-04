@@ -1,5 +1,3 @@
-import 'package:fluttely_validators/i18n/i18n.dart';
-
 import 'package:fluttely_validators/fluttely_validators.dart';
 import 'package:flutter_test/flutter_test.dart';
 

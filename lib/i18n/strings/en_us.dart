@@ -18,4 +18,8 @@ class EnUs implements Translation {
   /// CPFValidator
   @override
   String get thisIsNotAValidCPF => 'This is not a valid CPF!';
+
+  /// PhoneValidator
+  @override
+  String get thisIsNotAValidPhone => 'This is not a valid phone!';
 }

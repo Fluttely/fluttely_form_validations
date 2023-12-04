@@ -18,4 +18,8 @@ class PtBr implements Translation {
   /// CPFValidator
   @override
   String get thisIsNotAValidCPF => 'Este não é um CPF válido!';
+
+  /// PhoneValidator
+  @override
+  String get thisIsNotAValidPhone => 'Este não é um telefone válido!';
 }
